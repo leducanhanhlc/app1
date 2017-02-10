@@ -7,5 +7,5 @@ import android.widget.ImageView;
  */
 
 public class get {
-    ImageView io = 
+
 }
