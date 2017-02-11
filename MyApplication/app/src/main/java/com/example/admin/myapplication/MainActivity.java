@@ -17,11 +17,5 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-
-        ImageView imageView = (ImageView) findViewById(R.id.imageview);
-
-        imageView.setImageResource(R.drawable.download);
-
     }
 }
