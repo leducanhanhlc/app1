@@ -2,32 +2,39 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:weightSum="5"
-    android:orientation="horizontal" >
+    android:weightSum="2"
+    android:orientation="vertical">
 
     <LinearLayout
         android:layout_height="match_parent"
         android:layout_weight="1"
-        android:layout_width="0dp"
-        android:background="#00FF00"
+        android:layout_width="match_parent"
+        android:weightSum="1"
         >
 
+        <Button
+            android:text="SELL"
+            android:textSize="40dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/SELL"
+            android:layout_weight="1" />
     </LinearLayout>
+
     <LinearLayout
         android:layout_height="match_parent"
         android:layout_weight="1"
-        android:layout_width="0dp"
-        android:background="#FF0000"
+        android:layout_width="match_parent"
+        android:weightSum="1"
         >
 
-    </LinearLayout>
-    <LinearLayout
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:layout_width="0dp"
-        android:background="#0000FF"
-        >
-
+        <Button
+            android:text="BUY"
+            android:textSize="40dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/BUY"
+            android:layout_weight="1" />
     </LinearLayout>
 
 </LinearLayout>
