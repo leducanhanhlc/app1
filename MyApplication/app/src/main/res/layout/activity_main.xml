@@ -17,7 +17,6 @@
             android:textSize="40dp"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:id="@+id/SELL"
             android:layout_weight="1" />
     </LinearLayout>
 
@@ -33,7 +32,6 @@
             android:textSize="40dp"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:id="@+id/BUY"
             android:layout_weight="1" />
     </LinearLayout>
 

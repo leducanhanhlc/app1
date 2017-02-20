@@ -1,13 +1,15 @@
-package com.example.admin.myapplication;
+package com.example.admin.myapplication.VIEW.FINDING;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+
+import com.example.admin.myapplication.R;
 
 /**
  * Created by admin on 12/02/2017.
  */
 
-public class buy extends AppCompatActivity {
+public class Finding extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
