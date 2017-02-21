@@ -9,10 +9,10 @@ import com.example.admin.myapplication.R;
  * Created by admin on 12/02/2017.
  */
 
-public class Finding extends AppCompatActivity {
+public class FindingView extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.buy);
+        setContentView(R.layout.addshop);
     }
 }

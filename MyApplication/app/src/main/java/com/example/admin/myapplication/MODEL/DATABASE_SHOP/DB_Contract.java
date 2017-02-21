@@ -15,6 +15,6 @@ public final class DB_Contract implements BaseColumns {
         public static final String Key_ID = "ID";
         public static final String Key_Address = "Address";
         public static final String Key_Type = "Type";
-        public static final String Key_Item = "Item"
+        public static final String Key_Item = "Item";
 
 }

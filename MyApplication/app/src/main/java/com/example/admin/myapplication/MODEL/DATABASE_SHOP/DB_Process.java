@@ -20,10 +20,10 @@ public class DB_Process implements DB_Process_Imp {
     public int insert(DB_Contract db_contract) {
         SQLiteDatabase db = sql_helper.getReadableDatabase();
         ContentValues contentValues = new ContentValues();
-        contentValues.put(DB_Contract.Key_ID , db_contract.Key_ID);
-        contentValues.put(DB_Contract.Key_Address , db_contract.Key_Address);
-        contentValues.put(DB_Contract.Key_Type , db_contract.Key_Type);
-        contentValues.put(DB_Contract.Key_Item , db_contract.Key_Item);
+        contentValues.put(DB_Contract.Key_ID, db_contract.Key_ID);
+        contentValues.put(DB_Contract.Key_Address, db_contract.Key_Address);
+        contentValues.put(DB_Contract.Key_Type, db_contract.Key_Type);
+        contentValues.put(DB_Contract.Key_Item, db_contract.Key_Item);
         long newID = db.insert(DB_Contract.TABLE_NAME, null, contentValues);
         db.close();
         return (int) newID;
