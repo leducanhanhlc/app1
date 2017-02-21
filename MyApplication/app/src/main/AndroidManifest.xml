@@ -16,10 +16,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".VIEW.ADDSHOP.AddshopView">
-
-        </activity>
-
+        <activity android:name=".VIEW.ADDSHOP.AddshopView"></activity>
 
     </application>
 

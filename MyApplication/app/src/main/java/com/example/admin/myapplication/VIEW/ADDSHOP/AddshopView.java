@@ -1,8 +1,10 @@
 package com.example.admin.myapplication.VIEW.ADDSHOP;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.os.PersistableBundle;
 import android.support.v7.app.AppCompatActivity;
+import android.widget.EditText;
 
 import com.example.admin.myapplication.PRESENTER.ADDSHOP.Addshoppre;
 import com.example.admin.myapplication.R;
@@ -17,7 +19,12 @@ public class AddshopView extends AppCompatActivity{
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.addshop);
+
+        EditText add_editText = (EditText) findViewById(R.id.address);
+        EditText type_editText = (EditText) findViewById(R.id.type);
+        EditText item_editText = (EditText) findViewById(R.id.item);
+
         Addshoppre addshoppre = new Addshoppre(this);
-        addshoppre.add();
+        addshoppre.add(add_editText, type_editText, item_editText);
     }
 }
