@@ -17,7 +17,7 @@
         </activity>
 
         <activity android:name=".VIEW.ADDSHOP.AddshopView"></activity>
-
+        <activity android:name=".MODEL.DATABASE_SHOP.DB_Process"></activity>
     </application>
 
 </manifest>

@@ -24,7 +24,7 @@ public class AddshopView extends AppCompatActivity{
         EditText type_editText = (EditText) findViewById(R.id.type);
         EditText item_editText = (EditText) findViewById(R.id.item);
 
-        Addshoppre addshoppre = new Addshoppre(this);
+        Addshoppre addshoppre = new Addshoppre();
         addshoppre.add(add_editText, type_editText, item_editText);
     }
 }
