@@ -4,12 +4,15 @@ import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
+import static android.R.attr.version;
+
 /**
  * Created by admin on 18/02/2017.
  */
 
 
 public class DB_Helper extends SQLiteOpenHelper{
+
     private static final int VERSION = 2;
 
     private static final String DATABASE_NAME = "aplace.db";
