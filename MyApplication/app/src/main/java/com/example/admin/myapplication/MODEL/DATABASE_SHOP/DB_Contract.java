@@ -9,7 +9,7 @@ import android.provider.BaseColumns;
 public final class DB_Contract implements BaseColumns {
 
         //ten bang sql
-        public static final String TABLE_NAME = "Table";
+        public static final String TABLE_NAME = "database_shop";
 
         //ten cot
         public static final String Key_ID = "ID";

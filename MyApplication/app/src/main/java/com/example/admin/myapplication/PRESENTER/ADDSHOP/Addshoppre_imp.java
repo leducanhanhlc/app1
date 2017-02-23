@@ -9,5 +9,5 @@ import android.widget.EditText;
  */
 
 public interface Addshoppre_imp {
-    void add(EditText add_editText, EditText type_editText, EditText item_editText);
+    void add(EditText ID, EditText add_editText, EditText type_editText, EditText item_editText);
 }

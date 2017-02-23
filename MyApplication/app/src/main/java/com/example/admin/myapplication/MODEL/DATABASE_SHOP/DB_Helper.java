@@ -23,11 +23,12 @@ public class DB_Helper extends SQLiteOpenHelper{
 
     @Override
     public void onCreate(SQLiteDatabase db) {
+
         final String SQL_CREAT = "CREATE TABLE " + DB_Contract.TABLE_NAME + " ("
                 + DB_Contract.Key_ID + " INTEGER PRIMARY KEY AUTOINCREMENT,"
                 + DB_Contract.Key_Address + " TEXT,"
                 + DB_Contract.Key_Type + " TEXT,"
-                + DB_Contract.Key_Item + " TEXT )";
+                + DB_Contract.Key_Item + " TEXT );";
 
         db.execSQL(SQL_CREAT);
     }
