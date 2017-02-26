@@ -12,6 +12,8 @@ import android.widget.Toast;
 import com.example.admin.myapplication.PRESENTER.ADDSHOP.Addshoppre;
 import com.example.admin.myapplication.R;
 import com.example.admin.myapplication.VIEW.A_GREETING.GreetingView;
+import com.raizlabs.android.dbflow.annotation.Database;
+import com.raizlabs.android.dbflow.config.FlowManager;
 
 /**
  * Created by admin on 21/02/2017.
@@ -39,4 +41,6 @@ public class AddshopView extends AppCompatActivity{
             }
         });
     }
+    @Database()
+
 }
