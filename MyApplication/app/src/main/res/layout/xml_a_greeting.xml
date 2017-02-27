@@ -9,7 +9,7 @@
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:layout_width="match_parent"
-        android:weightSum="1"
+        android:weightSum="2"
         >
 
         <Button
@@ -19,6 +19,15 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:id="@+id/sell"/>
+
+        <Button
+            android:text="SHOW"
+            android:textSize="40dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/show"/>
+
     </LinearLayout>
 
 </LinearLayout>

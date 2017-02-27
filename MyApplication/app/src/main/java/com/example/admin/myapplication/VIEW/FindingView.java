@@ -1,4 +1,4 @@
-package com.example.admin.myapplication.VIEW.FINDING;
+package com.example.admin.myapplication.VIEW;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -13,6 +13,6 @@ public class FindingView extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.addshop);
+        setContentView(R.layout.xml_addshop);
     }
 }
